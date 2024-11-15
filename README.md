@@ -20,5 +20,5 @@
 
 ***
 ### ERD
-![Alt text](/schedule_develop.png)
+![Alt text](/schedule_Develop.png)
 ***
