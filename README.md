@@ -20,6 +20,6 @@
 
 ***
 ### ERD
-![Schedule Develop.png](Schedule Develop.png)
-![DB.ERD.png](DB.ERD.png)
+![Alt text](/schedule%20Develop.png)
+![Alt text](/DB.ERD.png)
 ***
