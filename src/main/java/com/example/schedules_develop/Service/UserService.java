@@ -16,7 +16,7 @@ public class UserService {
     private final UserRepository userRepository;
 
 
-    // 생성
+    // 유저 생성
     public SignUpResponseDto signUp(String username, String email, String password){
 
         User user = new User(username, email, password);
@@ -27,7 +27,7 @@ public class UserService {
 
     }
 
-    // 조회
+    // 유저 조회
     public List<SignUpResponseDto> findAll() {
         return userRepository.findAll()
                 .stream()
@@ -35,7 +35,7 @@ public class UserService {
                 .toList();
     }
 
-    // 삭제
+    // 유저 삭제
     public void delete(Long id) {
 
         User findUser = userRepository.findByIdOrElseThrow(id);
