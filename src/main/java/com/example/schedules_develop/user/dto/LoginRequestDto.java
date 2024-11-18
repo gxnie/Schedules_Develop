@@ -1,4 +1,4 @@
-package com.example.schedules_develop.Dto;
+package com.example.schedules_develop.user.dto;
 
 
 import lombok.AllArgsConstructor;
@@ -15,5 +15,10 @@ public class LoginRequestDto {
 
     @NotNull
     private final String password;
+
+    public LoginRequestDto(String email, String password){
+        this.email = email;
+        this.password = password;
+    }
 
 }

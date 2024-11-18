@@ -1,9 +1,9 @@
-package com.example.schedules_develop.Service;
+package com.example.schedules_develop.user.service;
 
 
-import com.example.schedules_develop.Dto.SignUpResponseDto;
-import com.example.schedules_develop.Repository.UserRepository;
-import com.example.schedules_develop.entity.User;
+import com.example.schedules_develop.user.dto.SignUpResponseDto;
+import com.example.schedules_develop.user.repository.UserRepository;
+import com.example.schedules_develop.user.entity.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

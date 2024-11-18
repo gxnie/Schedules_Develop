@@ -1,6 +1,6 @@
-package com.example.schedules_develop.Dto;
+package com.example.schedules_develop.user.dto;
 
-import com.example.schedules_develop.entity.User;
+import com.example.schedules_develop.user.entity.User;
 import lombok.Getter;
 
 @Getter

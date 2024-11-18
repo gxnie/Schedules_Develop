@@ -1,11 +1,11 @@
-package com.example.schedules_develop.Service;
+package com.example.schedules_develop.schedule.service;
 
 
-import com.example.schedules_develop.Dto.ScheduleResponseDto;
-import com.example.schedules_develop.Repository.ScheduleRepository;
-import com.example.schedules_develop.Repository.UserRepository;
-import com.example.schedules_develop.entity.Schedule;
-import com.example.schedules_develop.entity.User;
+import com.example.schedules_develop.schedule.dto.ScheduleResponseDto;
+import com.example.schedules_develop.schedule.repository.ScheduleRepository;
+import com.example.schedules_develop.user.repository.UserRepository;
+import com.example.schedules_develop.schedule.entity.Schedule;
+import com.example.schedules_develop.user.entity.User;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

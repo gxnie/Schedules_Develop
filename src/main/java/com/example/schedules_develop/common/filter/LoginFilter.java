@@ -1,4 +1,4 @@
-package com.example.schedules_develop.Filter;
+package com.example.schedules_develop.common.filter;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;

@@ -1,5 +1,7 @@
-package com.example.schedules_develop.entity;
+package com.example.schedules_develop.schedule.entity;
 
+import com.example.schedules_develop.common.entity.BaseEntity;
+import com.example.schedules_develop.user.entity.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

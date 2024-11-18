@@ -1,9 +1,13 @@
-package com.example.schedules_develop.Controller;
+package com.example.schedules_develop.user.controller;
 
 
-import com.example.schedules_develop.Dto.SignUpRequestDto;
-import com.example.schedules_develop.Dto.SignUpResponseDto;
-import com.example.schedules_develop.Service.UserService;
+import com.example.schedules_develop.user.dto.LoginRequestDto;
+import com.example.schedules_develop.user.dto.SignUpRequestDto;
+import com.example.schedules_develop.user.dto.SignUpResponseDto;
+import com.example.schedules_develop.user.service.UserService;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

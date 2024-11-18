@@ -1,7 +1,7 @@
-package com.example.schedules_develop.Dto;
+package com.example.schedules_develop.schedule.dto;
 
 
-import com.example.schedules_develop.entity.Schedule;
+import com.example.schedules_develop.schedule.entity.Schedule;
 import lombok.Getter;
 
 @Getter
